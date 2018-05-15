@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:theme="@style/ToolbarStyle"
+        android:background="@color/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:id="@+id/linear_layout_search"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/arrow_back_button"
+            android:padding="18dp"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <AutoCompleteTextView
+            android:textSize="18sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+
+            android:id="@+id/auto_text_search"
+            android:layout_weight="1"
+            android:hint="Search"
+            android:background="@null"
+            android:textColor="#fff"
+            android:textColorHint="@color/colorPrimaryLight"
+            android:paddingLeft="4dp"
+            android:layout_width="0dp"
+            android:layout_height="60dp" />
+        <ImageView
+            android:padding="15dp"
+            android:id="@+id/clear_button"
+            android:src="@drawable/ic_close"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+</RelativeLayout>

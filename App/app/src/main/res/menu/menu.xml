@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/log_out"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/account" />
+    <item
+        android:id="@+id/serach"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search" />
+
+</menu>

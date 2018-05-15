@@ -1,0 +1,9 @@
+<ExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expandable_list_view"
+    android:groupIndicator="@null"
+    android:childDivider="@null"
+    android:divider="@null"
+    android:background="@color/colorLightGrey"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</ExpandableListView>

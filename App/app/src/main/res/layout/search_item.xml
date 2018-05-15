@@ -1,0 +1,11 @@
+<TextView
+    android:id="@+id/search_item_txt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ddd"
+    android:padding="10dp"
+    android:textSize="20sp"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:text="some text some some text some text some some textsome text some some text"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

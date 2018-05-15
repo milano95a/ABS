@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/bbc"
+            android:title="BBC" />
+        <item
+            android:id="@+id/bbc_sport"
+            android:title="BBC Sport" />
+        <item
+            android:id="@+id/buss_insider"
+            android:title="Business Insider" />
+        <item
+            android:id="@+id/cnn"
+            android:title="CNN" />
+        <item
+            android:id="@+id/google"
+            android:title="Google" />
+        <item
+            android:id="@+id/nat_geog"
+            android:title="NATIONAL GEOGRAPHIC" />
+        <item
+            android:id="@+id/the_econ"
+            android:title="The Economist" />
+        <item
+            android:id="@+id/the_verge"
+            android:title="THE VERGE" />
+    </group>
+</menu>
