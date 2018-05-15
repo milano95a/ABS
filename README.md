@@ -1,5 +1,5 @@
-# brain-train
-Simple html-css website. My first website :)
+# ABS
+Android news application based on openweather api and google news api
 
 ## Home
 ![Scalding Logo](https://github.com/milano95a/ABS/blob/master/snapshots/1.png)
